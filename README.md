@@ -1,11 +1,15 @@
+<h1 align="center">NextJS Gok Boilerplate</h1>
 
-![React Avançado](https://raw.githubusercontent.com/React-Avancado/boilerplate/master/public/img/logo-gh.svg)
+<p align="center">
+  <img src="https://img.shields.io/static/v1?label=nextjs&message=framework&color=black&style=for-the-badge&logo=NEXTJS"/>
+  <img src="https://img.shields.io/static/v1?label=typescript&message=language&color=blue&style=for-the-badge&logo=TYPESCRIPT"/>
+  <img src="http://img.shields.io/static/v1?label=DOCKER&message=Containers&color=blue&style=for-the-badge&logo=DOCKER"/>
+  <img src="http://img.shields.io/static/v1?label=STATUS&message=PRODUCTION&color=green&style=for-the-badge"/>
+</p>
 
-This is a [Next.js](https://nextjs.org/) boilerplate to be used in a course called [React Avançado](https://reactavancado.com.br/).
-![ci](https://github.com/React-Avancado/boilerplate/workflows/ci/badge.svg)
-## What is inside?
+<p align="center">Este boilerplate visa otimizar a criação de novas aplicações já que o mesmo possui toda uma arquitetura e configurações pré-definidas.</p>
 
-This project uses lot of stuff as:
+Este projeto utiliza:
 
 - [TypeScript](https://www.typescriptlang.org/)
 - [NextJS](https://nextjs.org/)
@@ -17,42 +21,56 @@ This project uses lot of stuff as:
 - [Prettier](https://prettier.io/)
 - [Husky](https://github.com/typicode/husky)
 
-## Getting Started
-
-First, run the development server:
+## Criar um novo projeto utilizando o boilerplate
 
 ```bash
-npm run dev
-# or
+yarn create next-app -e https://github.com/gok-dev/next-gok-boilerplate
+```
+
+## Começando
+
+Primeiro, rode o servidor em modo desenvolvimento:
+
+```bash
 yarn dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Abra [http://localhost:3000](http://localhost:3000) no seu navegador para ver o resultado.
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+Você pode começar a editar a pagina em `pages/index.js`. A pagina é atualizada automaticamente enquanto você edita.
 
-## Commands
+## Comandos
 
-- `dev`: runs your application on `localhost:3000`
-- `build`: creates the production build version
-- `start`: starts a simple server with the build production code
-- `lint`: runs the linter in all components and pages
-- `test`: runs jest to test all components and pages
-- `test:watch`: runs jest in watch mode
-- `storybook`: runs storybook on `localhost:6006`
-- `build-storybook`: create the build version of storybook
+- `dev`: roda a aplicação em modo de desenvolvimento em `localhost:3000`
+- `build`: cria uma versão de produção
+- `start`: inicia um servidor simples com o build de produção
+- `lint`: roda o lint em todas as paginas e componentes
+- `test`: roda os testes em todas as paginas e componentes
+- `test:watch`: inicia o jest no modo que fica escutando alterações no código
+- `storybook`: inicia o storybook em `localhost:6006`
+- `build-storybook`: cria uma versão de distribuição do storybook
 
-## Learn More
+<!-- CONTRIBUTING -->
 
-To learn more about Next.js, take a look at the following resources:
+## Contribuição
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Contribuições são o que fazem a comunidade open source um lugar incrível para aprender, inspirar e criar. Qualquer contribuição que você fizer será **muito apreciada**.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+1. Faça um Fork do projeto
+2. Crie uma Branch para sua Feature (`git checkout -b feature/FeatureIncrivel`)
+3. Adicione suas mudanças (`git add .`)
+4. Comite suas mudanças (`git commit -m 'Adicionando uma Feature incrível!`)
+5. Faça o Push da Branch (`git push origin feature/FeatureIncrivel`)
+6. Abra um Pull Request
 
-## Deploy on Vercel
+<!-- LICENSE -->
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/import?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Licença
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Distribuído sob a licença MIT. Veja `LICENSE` para mais informações.
+
+<!-- CONTACT -->
+
+## Contato
+
+Gok - One Step Ahead - [Github](https://github.com/gok-dev) - **julio.sousa@gok.digital**
